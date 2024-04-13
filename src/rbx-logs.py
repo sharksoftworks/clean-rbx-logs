@@ -23,4 +23,3 @@ for files in file:
         var = e
 print(Colorate.Horizontal(Colors.blue_to_cyan, "[shark-rbx] Removed log files...", True))
 input(Colorate.Horizontal(Colors.blue_to_cyan, "[shark-rbx] Press any key to exit...", True))
-# thx for using this
