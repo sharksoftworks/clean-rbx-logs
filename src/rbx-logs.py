@@ -18,7 +18,7 @@ print(Colorate.Horizontal(Colors.blue_to_cyan, "[shark-rbx] Getting log files...
 print(Colorate.Horizontal(Colors.blue_to_cyan, "[shark-rbx] Removing log files...", True))
 for files in file:
     try:
-        os.remove(file + "/" + files)
+        os.remove(storage + "/" + files)
     except Exception as e:
         var = e
 print(Colorate.Horizontal(Colors.blue_to_cyan, "[shark-rbx] Removed log files...", True))
